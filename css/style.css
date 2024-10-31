@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Monsieur+La+Doulaise&display=swap");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/btn-blue.css");
+@import url("components/banner.css");
+@import url("components/cards.css");
+
+
+body {
+	font-family: "Lora", serif;
+	font-size: 18px;
+	color: #003D7A;
+	background-color: #DCEDFF; 
+	margin: 0;
+	padding: 0;
+	line-height: 1.6;
+}
+
+
+h1 {
+	font-family: "Monsieur La Doulaise", cursive;
+	font-weight: bold;
+	font-size: 50px;
+	color: #003D7A; /* Couleur principale */
+	margin-bottom: 0.5em;
+	text-align: center;
+}
+
+h2, h3 {
+	font-family: "Lora", serif;
+	font-weight: bold;
+	font-size: 23px;
+	color: #003D7A; /* Couleur principale */
+	margin-bottom: 0.5em;
+}
+
+
+a {
+	text-decoration: none;
+	color: #003D7A;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color: #D1345B; 
+}
+
+
+
+
+

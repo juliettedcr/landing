@@ -1,0 +1,20 @@
+.avatar {
+	max-width: 100px;
+	height: auto;
+	border-radius: 50%; 
+	display: block;
+	margin: 0 auto;    
+}
+
+
+@media (max-width: 720px) {
+	.avatar {
+		max-width: 80px;
+	}
+}
+
+@media (max-width: 540px) {
+	.avatar {
+		max-width: 60px;
+	}
+}
